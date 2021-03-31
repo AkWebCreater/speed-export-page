@@ -33,6 +33,8 @@ $latency = $speed['lighthouseResult']['audits']['estimated-input-latency']['disp
 
 
 
+
+echo $timezon;
 echo $FirstContentfulPaint . "<br>";
 echo $FirstInputDelay . "<br>";
 echo $FirstContentfulPaint1 . "<br>";

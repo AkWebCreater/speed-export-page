@@ -1,24 +1,30 @@
 <?php   
 include 'db.php';
 $conn = getdb();
+// setting defult timezone to india timezone 
+date_default_timezone_set('Asia/Kolkata');
 
-// function getExport(){
+$filename='uploded/speed_';
+$date = date('m-d-Y_h-i-s', time());
+$csv = $filename . $date .'.csv';
+echo $csv;
+// new CSV file oppned
+$file = fopen($csv, 'w');
+// colums header  of CSV file
+$colums = array('First Contentful Paint','First Input Delay','First Contentful Paint1','Speed Index','Time To Interactive','First Meaningful Paint','First Contentful Paint','First CPU Idle','Latency');
+fputcsv($file,$colums);
+// sql database query
+$q = 'select * from speed';
 
-// }
-$q = "select * from speed";
-$exportResult = mysqli_query($conn,$q);
-if(isset($_POST['Export'])){
-    header('Content-Type:text/csv;chaset=utf-8');
-    header('Content-Disposition:attachment;filename=speed.csv');
-    $output = fopen("php://output","w");
-    fputcsv($output,array('First Contentful Paint','First Input Delay','First Contentful Paint1','Speed Index','Time To Interactive','First Meaningful Paint','First Contentful Paint','First CPU Idle','Latency'));
-    $q = 'select * from speed';
-    $speedresult = $conn->query($q);
-    while ($row = mysqli_fetch_assoc($speedresult)) {
-        # code...
-        fputcsv($output,$row);
-    }
-    fclose($output);
+// code
+
+// putting content in  csv file 
+if($rows = mysqli_query($conn, $q)){
+while( $row = mysqli_fetch_assoc($rows))
+{
+fputcsv($file, $row);
 }
-// getExport();
+}
+// closing csv file
+fclose($file);
 ?>

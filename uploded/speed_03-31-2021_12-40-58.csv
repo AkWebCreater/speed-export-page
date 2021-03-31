@@ -1,0 +1,41 @@
+"First Contentful Paint","First Input Delay","First Contentful Paint1","Speed Index","Time To Interactive","First Meaningful Paint","First Contentful Paint","First CPU Idle",Latency
+,,,0,0,0,0,0
+SLOW,FAST,1.0 s,3,4,1,1,70
+SLOW,FAST,1.0 s,4,4,1,1,60
+SLOW,FAST,1.0 s,3.0 s,4.4 s,1.0 s,1.0 s,90 ms
+,,,,,,,
+,,,,,,,
+,,,,,,,
+SLOW,FAST,1.0 s,4.0 s,4.3 s,1.0 s,1.0 s,60 ms
+SLOW,FAST,1.0 s,4.0 s,4.6 s,1.0 s,1.0 s,120 ms
+,,,,,,,
+,,,,,,,
+,,,,,,,
+SLOW,FAST,1.0 s,3.6 s,2.6 s,1.0 s,1.0 s,50 ms
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+SLOW,AVERAGE,4.0 s,10.0 s,19.6 s,4.1 s,4.1 s,490 ms
+SLOW,AVERAGE,4.0 s,10.0 s,19.6 s,4.1 s,4.1 s,490 ms
+SLOW,AVERAGE,4.1 s,10.6 s,19.7 s,4.1 s,4.1 s,340 ms
+SLOW,AVERAGE,4.0 s,10.9 s,20.6 s,4.2 s,4.2 s,620 ms
+SLOW,AVERAGE,4.1 s,12.1 s,21.3 s,4.1 s,4.1 s,520 ms
+SLOW,FAST,0.9 s,3.7 s,3.7 s,0.9 s,0.9 s,80 ms
+SLOW,FAST,0.9 s,3.7 s,3.5 s,0.9 s,0.9 s,80 ms
+SLOW,FAST,0.9 s,2.7 s,3.1 s,0.9 s,0.9 s,30 ms
+SLOW,FAST,0.9 s,3.1 s,3.4 s,0.9 s,0.9 s,50 ms
+,,,,,,,
+SLOW,FAST,0.9 s,3.7 s,3.9 s,0.9 s,0.9 s,80 ms
+SLOW,FAST,0.9 s,3.0 s,3.9 s,0.9 s,0.9 s,90 ms
+SLOW,FAST,0.9 s,3.9 s,3.7 s,0.9 s,0.9 s,70 ms
+,,,,,,,
+SLOW,FAST,0.9 s,2.9 s,3.2 s,0.9 s,0.9 s,50 ms
+SLOW,FAST,0.9 s,3.0 s,4.0 s,0.9 s,0.9 s,120 ms
+SLOW,FAST,0.9 s,3.1 s,3.4 s,0.9 s,0.9 s,40 ms
+SLOW,FAST,0.9 s,2.9 s,3.0 s,1.0 s,1.0 s,50 ms
+SLOW,FAST,0.9 s,2.4 s,3.8 s,0.9 s,0.9 s,50 ms
+SLOW,FAST,0.9 s,3.8 s,3.8 s,0.9 s,0.9 s,80 ms
+SLOW,FAST,0.9 s,3.1 s,3.9 s,0.9 s,0.9 s,90 ms
+SLOW,FAST,0.9 s,3.0 s,3.7 s,0.9 s,0.9 s,60 ms
+SLOW,FAST,0.9 s,2.3 s,3.3 s,0.9 s,0.9 s,90 ms
