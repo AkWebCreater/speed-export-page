@@ -9,9 +9,10 @@ $date = date('m-d-Y_h-i-s', time());
 $csv = $filename . $date .'.csv';
 echo $csv;
 // new CSV file oppned
+
 $file = fopen($csv, 'w');
 // colums header  of CSV file
-$colums = array('First Contentful Paint','First Input Delay','First Contentful Paint1','Speed Index','Time To Interactive','First Meaningful Paint','First Contentful Paint','First CPU Idle','Latency');
+$colums = array('First Contentful Paint','First Input Delay','First Contentful Paint1 / Sec','Speed Index / Sec','Time To Interactive / Sec','First Meaningful Paint / Sec','First CPU Idle / Sec','Latency / MS');
 fputcsv($file,$colums);
 // sql database query
 $q = 'select * from speed';
@@ -35,7 +36,7 @@ echo $csv;
 // new CSV file oppned
 $fileMob = fopen($csv, 'w');
 // colums header  of CSV file
-$colums = array('First Contentful Paint','First Input Delay','First Contentful Paint1','Speed Index','Time To Interactive','First Meaningful Paint','First Contentful Paint','First CPU Idle','Latency');
+$colums = array('First Contentful Paint','First Input Delay','First Contentful Paint1 / Sec','Speed Index / Sec','Time To Interactive / Sec','First Meaningful Paint / Sec','First CPU Idle / Sec','Latency / MS');
 fputcsv($fileMob,$colums);
 // sql database query
 $q = 'select * from speed_mobile';

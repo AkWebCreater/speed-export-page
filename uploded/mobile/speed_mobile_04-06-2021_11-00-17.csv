@@ -1,0 +1,9 @@
+"First Contentful Paint","First Input Delay","First Contentful Paint1 / Sec","Speed Index / Sec","Time To Interactive / Sec","First Meaningful Paint / Sec","First CPU Idle / Sec","Latency / MS"
+SLOW,AVERAGE,3.3,8.3,16,3.5,3.5,210
+SLOW,AVERAGE,3.3,7.5,13.6,3.5,3.5,450
+SLOW,AVERAGE,3.3,0,7.6,3.5,3.5,50
+SLOW,AVERAGE,3.3,0,7.6,3.5,3.5,50
+SLOW,AVERAGE,3.3,0,7.6,3.5,3.5,50
+SLOW,AVERAGE,3.3,0,7.6,3.5,3.5,50
+SLOW,AVERAGE,3.4,9.6,7.9,3.5,3.5,50
+SLOW,AVERAGE,3.3,0,7.4,3.5,3.5,20
